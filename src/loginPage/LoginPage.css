@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    font: 1.6 helvetica ;
+    box-sizing: border-box;
+    background: #F0F2F5;
+}
+
+.loginContainer{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.loginContainer .loginsec{
+    width: 80%;
+    height: 40rem;
+    display: flex;
+    border-radius: 1rem;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+.login_text{
+    width: 50%;
+}
+.facebookText{
+    padding: 1rem;
+    font-size: 4rem;
+    color: #1877F2;
+    font-weight: 700;
+}
+.title{
+    font-size: 2rem;
+    color: black;
+    font-weight: 600;
+}
+.formContainer{
+    width: 40%;
+    height: 50%;
+
+}
+form{
+    width: 100%;
+    height: 26rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: .7rem;
+}
+input[type=email]{
+    width: 80%;
+    padding: 20px;
+    margin: 8px 0;
+    outline-color: blue ;
+    border: 1px solid gray;
+    border-radius:.5rem;
+    
+}
+input[type=password]{
+    width: 80%;
+    padding: 20px;
+    margin: 8px 0;
+    border: 1px solid gray;
+    border-radius: .5rem;
+    outline-color: blue ;
+}
+input[type=submit]{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    background-color: #1877F2;
+    border: none;
+    padding: 15px 32px;
+    justify-content: center;
+    margin: 4px;
+    border-radius: .5rem;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    cursor: pointer;
+}
+.forget{
+    color: #1877F2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+}
+hr{
+    width: 80%;
+    margin-top: 20px;
+}
+.newAccBtn{
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F0F2F5;
+    background-color: #42b72b;
+    border: none;
+    padding: 15px 32px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: .5rem;
+    margin: 10px;
+}
+.brandOrBussinAccou a{
+    color: black;
+    text-decoration: none;
+    font-weight:600 ;
+}
+.brandOrBussinAccou a:hover{
+    text-decoration: underline;
+}
+
+@media  screen and (max-width: 600px) {
+    .loginsec{
+        flex-direction: column!important;
+        justify-content: center!important;
+    }
+    .login_text{
+        width: 80%;
+    }
+    .formContainer{
+        width: 90%;
+    }
+  }
+  
